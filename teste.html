@@ -27,8 +27,8 @@
 </head>
 
 <body>
-  <section id="navbar">
-    <div class="containera green borderXwidth"
+  <section id="navbar2">
+    <div class="containera green borderXwidth" id="navbar"
       style="background-color:  #fafafa; width: 100%; filter: drop-shadow(4px 4px 6px black);" id="containera">
       <img src="img/DSM.png" class="logo-time" alt="logo">
       <div class="redline">
@@ -94,7 +94,7 @@
       </div>
     </div>
 
-    <div class="container mt-5 mb-5">
+    <div class="container mt-5 mb-5" style="width: 70em;">
       <div class="box mt-custom-sm">
         <ul class="nav nav-tabs">
           <li class="nav-item">
@@ -116,7 +116,7 @@
 
         <div id="tabs-menu-1" class="tab-content">
           <div class="tab-pane container active" id="menu">
-            <p>
+            <p class="texto-fade">
               A Faculdade de Tecnologia de Indaiatuba é resultante de intenção
               tripartite entre o Centro Estadual de Educação Tecnológica “Paula
               Souza”, Prefeitura Municipal de Indaiatuba e a AIMI- Associação
@@ -124,7 +124,7 @@
             </p>
           </div>
           <div class="tab-pane container fade" id="menu1">
-            <p>
+            <p class="texto-fade">
               Fundador da Escola Politécnica da Universidade de São Paulo
               (Poli-USP), o engenheiro e professor Antonio Francisco de Paula
               Souza (1843 – 1917) foi um educador que sempre defendeu o papel da
@@ -140,7 +140,7 @@
             </p>
           </div>
           <div class="tab-pane container fade" id="menu2">
-            <p>
+            <p class="texto-fade">
               Formar tecnólogos profissionalmente competentes, cidadãos com
               postura crítica, ética e humanística, responsáveis e comprometidos
               com o desenvolvimento sustentável, preparados para oferecerem
@@ -148,7 +148,7 @@
             </p>
           </div>
           <div class="tab-pane container fade" id="menu3">
-            <p>
+            <p class="texto-fade">
               Ser uma instituição de excelência na geração e difusão de novas
               tecnologias, de inovações tecnológicas e de soluções social e
               economicamente produtivas com atuação na Educação Superior
@@ -156,7 +156,7 @@
             </p>
           </div>
           <div class="tab-pane container fade" id="menu4">
-            <p>
+            <p class="texto-fade">
               Promover um ambiente de aprendizagem que favoreça o
               desenvolvimento das competências, habilidades e atitudes para o
               atendimento das demandas da sociedade. Integrar e participar do
@@ -175,18 +175,19 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <img class="w-100" src="img/Início/log-dsm color.png" alt="Cursos oferecidos" />
+        <div class="col-lg-6 col-md-12"
+          style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+          <img src="img/Início/fatecinda.webp" alt="Cursos oferecidos" style="height: 15em; width: 25em;" />
         </div>
         <div class="col-lg-6 col-md-12">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117408.02035883132!2d-47.3156363628656!3d-23.133652007591763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b4b183d3173b%3A0xe4ee31c77bda1c4f!2sFATEC%20Indaiatuba!5e0!3m2!1spt-BR!2sbr!4v1696332570200!5m2!1spt-BR!2sbr"
-            width="100%" height="400" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+            width="75%" height="300" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
         </div>
       </div>
     </div>
   </section>
-<!----------- INICIO DISCIPLINAS ------------->>
+  <!----------- INICIO DISCIPLINAS ------------->>
   <section id="disciplinas">
     <div class="content-idols" id="imagemidols">
       <div class="div1-idols">
@@ -260,55 +261,94 @@
             </div>
           </div>
         </div>
-        <!------------------ CAROUSEL ITEM 2 -------------------->
-        <div class="carousel-item">
-          <div class="div-buttons">
-            <div class="center-cards">
-              <a id="button1" class="cards" onclick="mudarButton1()" onmouseover="hoverButton1()"
-                onmouseleave="nothover()">
-                <img src="./img/DesenWeb.png">
-              </a>
-            </div>
-            <div class="center-cards">
-              <a id="button2" class="cards" onclick="mudarButton2()" onmouseover="hoverButton2()"
-                onmouseleave="nothover()">
-                <img src="./img/ES2.png">
-              </a>
-            </div>
-            <div class="center-cards">
-              <a id="button3" class="cards" onclick="mudarButton3()" onmouseover="hoverButton3()"
-                onmouseleave="nothover()">
-                <img src="./img/DD.webp">
-              </a>
-            </div>
-            <div class="center-cards">
-              <a id="button4" class="cards" onclick="mudarButton4()" onmouseover="hoverButton4()"
-                onmouseleave="nothover()">
-                <img src="./img/algoritmos-e-logica-de-programacao.jpg.webp">
-              </a>
-            </div>
-            <div class="center-cards">
-              <a id="button4" class="cards" onclick="mudarButton4()" onmouseover="hoverButton4()"
-                onmouseleave="nothover()">
-                <img src="./img/cassio.jpg">
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
 
   </section>
 
 </body>
+<!---------------footer------------------------>
+<footer class=" bg text-white pt-5 pb-4" style="background: linear-gradient( to right,#1d03c8 50%, rgb(0, 247, 234)90%);">
+  <div class="container text-center text-md-left">
+    <div class="row text-center text-md-left" >
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" style="width: 20em;" >
+        <div style="height: 10% ;"></div>
+        <img src="img/DSM.png" class="d-block w-100" style="height: 60%; width: 80%;" alt="...">
+      </div>
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="paragrafs mb-4 font-weight-bold">DSM</h5>
+        <p class="paragraf">O curso de Desenvolvimento de Sistemas da FATEC Indaiatuba é uma graduação que forma
+          profissionais para criar e manter software. Os alunos aprendem diversas tecnologias e linguagens, com foco em
+          programação, banco de dados, análise de sistemas e desenvolvimento web. O curso oferece projetos e estágios
+          para prática profissional, destacando-se pela infraestrutura moderna e corpo docente qualificado.</p>
+      </div>
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="paragrafs mb-4 font-weight-bold">Links</h5>
+        <p class="top">
+          <a href="https://github.com/joaopedrogca/Projeto-Integrador" class="top">GitHub</a>
+        </p>
+        <p class="top">
+          <a href="#" class="top">Documentação</a>
+        </p>
+        <p class="top">
+          <a href="#" class="top">Termos de Uso</a>
+        </p>
+        <p class="top">
+          <a href="#" class="top">Ajuda</a>
+        </p>
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="paragrafs mb-4 font-weight-bold">Contato</h5>
+        <p class="paragraf">
+          <i class="fas fa-home mr-3"></i> Indaiatuba-SP, BR
+        </p>
+        <p class="paragraf">
+          <i class="fas fa-envelope mr-3"></i> fatecindaiatuba@hotmail.com
+        </p>
+        <p class="paragraf">
+          <i class="fas fa-mobile mr-3"></i> +55 11 98898-5343
+        </p>
+        <p class="paragraf">
+          <i class="fas fa-phone mr-3"></i> +55 11 4701-1856
+        </p>
+      </div>
+    </div>
+    <hr class="mb-4">
+    <div class="row align-items-center" >
+      <div class="col-md-7 col-lg-8">
+        <p>Copyright ©2023 Todos os direitos reservados por: <a href="#" style="text-decoration: none;">
+            <strong class="paragrafs">Centro Paula Souza</strong></a></p>
+      </div>
+
+      <div class="col-md-5 col-lg-4">
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/?locale=pt_BR" target="_blank" class="btn-floating btn-sm text-white"
+                style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com" target="_blank" class="btn-floating btn-sm text-white" target="_blank"
+                style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/" target="_blank" class="btn-floating btn-sm text-white"
+                style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://br.linkedin.com/" target="_blank" class="btn-floating btn-sm text-white"
+                style="font-size: 23px;"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank" class="btn-floating btn-sm text-white"
+                style="font-size: 23px;"><i class="fab fa-whatsapp"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
 </html>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

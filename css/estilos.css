@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
 /* Estilos gerais do container */
 .container-custom {
   background-color: #fff;
@@ -40,7 +42,14 @@
   padding-left: 70px;
 }
 
-
+.texto-fade{
+  font-family: Raleway;
+  font-size: 1.2em;
+  justify-content: justify;
+}
+.title-2{
+  font-size: 2em;
+}
 
 .container2 {
   padding: 0;

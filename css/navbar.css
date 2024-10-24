@@ -72,8 +72,10 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
     opacity: 1;
     width: 100%;
 }
-.navbar-fixed-top {
-    position: fixed !important;
+.fixed {
+    position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
+    z-index: 1000; /* Para que a navbar fique acima de outros conteúdos */
 }

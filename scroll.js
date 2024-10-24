@@ -1,10 +1,8 @@
-$(function(){
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 60)
-        {
-            $('#navbar').addClass('navbar-fixed-top', 500);
-        } else {
-            $('#navbar').removeClass('navbar-fixed-top', 500);  
-        }
-    });
-});
+window.onscroll = function() {
+    var navbar = document.getElementById("navbar");
+    if (window.pageYOffset > 50) {
+        navbar.classList.add("fixed");
+    } else {
+        navbar.classList.remove("fixed");
+    }
+};

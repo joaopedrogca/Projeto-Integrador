@@ -17,10 +17,7 @@
     font-family: LemonMilk R;
     src: url(../fonts/LEMONMILK-Medium.otf);
 }
-@font-face {
-    font-family: Aileron;
-    src: url(../fonts/Ailerons-Typeface.otf);
-}
+
 html{
     font-family: LemonMilk R;
 }
