@@ -34,7 +34,6 @@ body{
     background-position: center;
     background-size: cover;
     text-align: justify;
-    margin-top: 2em;
     display: flex;
 }
 .imagem-idols{
@@ -49,11 +48,12 @@ body{
  }
  .titulo-materias{
     margin-top: 0.2em;
-    font-size: 4em;
-    font-family: Aileron;
+    font-size: 2em;
+    font-family: LemonMilk;
     color: white;
     transition: 0.5;
     width: 14em;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
     
 }
 .text-idols{
@@ -67,6 +67,7 @@ body{
     word-break:keep-all;
     transition: 0.5;
     margin-top: 2em;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
 }
 
 
@@ -153,13 +154,12 @@ body{
 .DWeb, .ES, .DD, .ALP, .SO, .MBD
 {
     height: 44em;
-    background-image: 
+    background: 
         linear-gradient( to right, rgb(0, 0, 0) 15%, rgba(245, 244, 244, 0)), 
         url(../img/WEB.png); 
     background-position: center;
     background-size:cover;
     text-align: justify;
-    margin-top: 2em;
     display: flex;
 }
 .DWeb
@@ -177,13 +177,13 @@ body{
 .DD
 {
     background-image: 
-        linear-gradient( to right, rgb(101, 45, 255)50%, rgba(245, 244, 244, 0)90%), 
+        linear-gradient( to right, rgb(31, 3, 109)50%, rgba(245, 244, 244, 0)90%), 
         url(../img/DD-back.webp); 
 }
 .ALP
 {
     background-image: 
-        linear-gradient( to right,#4d0202 50%, rgba(205, 152, 152, 0)90%), 
+        linear-gradient( to right,#012519 50%, rgba(205, 152, 152, 0)90%), 
         url(../img/linguagens-de-programacao.jpeg.webp);
         size: 20em 
 }
